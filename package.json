@@ -1,0 +1,15 @@
+{
+  "name": "bankist_mvc",
+  "version": "1.0.0",
+  "description": "Bankist App refactored using MVC architecture",
+  "default": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "author": "Racoon",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.3.1"
+  }
+}
